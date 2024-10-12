@@ -17,3 +17,7 @@ print (g+h)
 i = "HELLO"
 j = "WORLD"
 print (i+j)
+
+k = 10
+l = 2
+print (k*l)
