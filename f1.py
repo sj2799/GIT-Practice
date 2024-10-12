@@ -24,6 +24,7 @@ print (k*l)
 
 m = 200
 n = 4
+<<<<<<< HEAD
 print (m*n)
 
 o = 250
@@ -33,3 +34,6 @@ print (o/p)
 q = 340
 r = 34
 print (q/r) 
+=======
+print (m*n)
+>>>>>>> parent of a20b432 (div)
