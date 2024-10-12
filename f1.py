@@ -13,3 +13,7 @@ print (e+" "+f)
 g = "Hello"
 h = "World"
 print (g+h)
+
+i = "HELLO"
+j = "WORLD"
+print (i+j)
