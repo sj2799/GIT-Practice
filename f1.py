@@ -5,3 +5,7 @@ print (int(a) + b)
 c = 30
 d = 20
 print (c-d)
+
+e = "Hello"
+f = "World"
+print (e+" "+f)
