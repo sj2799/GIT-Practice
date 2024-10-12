@@ -9,3 +9,7 @@ print (c-d)
 e = "Hello"
 f = "World"
 print (e+" "+f)
+
+g = "Hello"
+h = "World"
+print (g+h)
