@@ -1,0 +1,49 @@
+Common Git Commands :
+
+* git init                      --> Converts folder into git repsitory (Goes to Working area).
+
+* git add filename              --> File goes to Staging area (not permanently saved).
+
+* git add .                     --> To add multiple files.
+
+* git rm --cached filename      --> File goes back to Working area (Unstage).
+
+* git commit -m "msg"           --> File gets saved.
+
+* git status                    --> Shows our work is in which state.
+
+* git log      				    --> Shows commits history along with msg, author, date, commit id.
+
+* git log --oneline 		    --> It skips all the info & gives only commit info in one line.
+
+* git restore --staged filename --> To unstage file which is not committed.
+
+* git revert commit_id   		--> To revert commit.
+
+* git reset --hard commit_id    --> To permanently delete a commit. [Cannot get the commit back even if commit_id is saved somewhere]
+
+* git reset --soft commit_id    --> To permanently delete a commit. [Can get the commit back if commit_id is saved somewhere]
+
+* git remote add origin URL   	--> To push your repo from local to github (remote).
+
+* git remote -v 				--> To check current URL in your origin.
+
+* git branch -M main			--> To change the branch name.
+
+* git push -u origin main		--> To push changes made from local to remote repo.
+
+* git clone URL					--> To clone repo from remote to local.
+
+* git checkout					--> To come from local repo to working area.
+
+* git pull						--> To come from remote repo to working area.
+
+* git branch branchname			--> To create a branch.
+
+* git branch					--> To check how many branches are there in git.
+
+* git checkout branchname		--> To move to other branch.
+
+* git merge branchname			--> To merge branch.
+
+* git branch -d branchname		--> To delete a branch.
